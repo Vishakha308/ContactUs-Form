@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 2px solid yellowgreen;
+}
+
+.top_button{
+    display: flex;
+    gap: 24px;
+}
+
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;   
+    border: 2px solid magenta;
+    
+}
+
+.formControl{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    
+
+    /* border: 2px solid orange; */
+}
+
+.formControl input{
+    height: 40px;
+    padding: 0 8px;
+}
+
+.formControl label{
+    font-size: 14px;
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background-color: white;
+    padding: 0 10px;
+}
