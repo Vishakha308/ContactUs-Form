@@ -4,7 +4,8 @@ import {MdMessage} from "react-icons/md";
 const Button = ({isOutline, icon, text}) => {
 
   return (
-    <button className={isOutline ? styles.outline_btn : styles.primary_btn}>
+    <button 
+      className={isOutline ? styles.outline_btn : styles.primary_btn}>
         {icon}
         {text}
     </button>

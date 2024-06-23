@@ -6,6 +6,7 @@
 
 body{
   font-family: "Poppins", sans-serif;
+  /* overflow: hidden;  */
 }
 
 .container{
@@ -13,3 +14,9 @@ body{
   margin: 0 auto;
 }
 
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 72px);
+  justify-content: end;
+}

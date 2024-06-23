@@ -2,21 +2,33 @@
     display: flex;
     max-width: 1000px;
     margin: 0 auto;
-    border: 2px solid yellowgreen;
+    margin-top: 0px;
+    align-items: center;
+    /* background-color: brown; */
+    /* border: 2px solid yellowgreen; */
 }
 
 .top_button{
+    /* background-color: aqua; */
     display: flex;
     gap: 24px;
 }
 
 
 .contactForm{
+    /* background-color: chartreuse; */
     display: flex;
     flex-direction: column;
-    gap: 24px;   
-    border: 2px solid magenta;
-    
+    gap: 28px;   
+    /* border: 2px solid magenta; */
+
+}
+
+.contactForm form{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    padding-bottom: 20px;
 }
 
 .formControl{
@@ -32,6 +44,10 @@
 .formControl input{
     height: 40px;
     padding: 0 8px;
+}
+
+.formControl textarea{
+    padding: 8px;
 }
 
 .formControl label{

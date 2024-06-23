@@ -5,12 +5,14 @@ import Navigation from './components/Navigation/Navigation'
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       <Navigation/>
-      <ContactHeader/>
-      <ContactForm/>
+      <main className='mainContainer'>
+        <ContactHeader/>
+        <ContactForm/>
+      </main>
     </div>
   )
 }
 
-export default App
+export default App;  
